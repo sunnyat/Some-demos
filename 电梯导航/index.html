@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>电梯导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        .slider-bar {
+            display: none;
+            position: fixed;
+            left: 47%;
+            top: 160px;
+            margin-left: 600px;
+            width: 45px;
+            height: 305px;
+            background-color: pink;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .slider-bar li {
+            font-size: 15px;
+            padding: 5px;
+            border-bottom: 1px solid #fff;
+        }
+        .slider-bar li:hover {
+            background-color: red;
+            color: #fff;
+        }
+        .current {
+            background-color: red;
+            color: #fff;
+        }
+        .w {
+            width: 1100px;
+            margin: 10px auto;
+        }
+        .header {
+            height: 150px;
+            background-color: purple;
+        }
+        .banner {
+            height: 300px;
+            background-color: skyblue;
+        }
+        .main {
+            height: 500px;
+            background-color: yellowgreen;
+        }
+        .footer {
+            height: 300px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-bar">
+        <ul>
+            <li>头部区域</li>
+            <li class="current">导航区域</li>
+            <li>第一部分</li>
+            <li>第二部分</li>
+            <li>第三部分</li>
+            <li>底部区域</li>
+        </ul>
+    </div>
+    <div class="header w">头部区域</div>
+    <div class="banner w">banner区域</div>
+    <div class="main w">主体部分1</div>
+    <div class="main w">主体部分2</div>
+    <div class="main w">主体部分2</div>
+    <div class="footer w">footer部分</div>
+</body>
+</html>

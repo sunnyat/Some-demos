@@ -1,0 +1,25 @@
+body,div,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,form,input,a,textarea,p{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+img{
+	border: none;
+}
+.clearfloat{
+	zoom: 1;
+}
+.clearfloat:after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}

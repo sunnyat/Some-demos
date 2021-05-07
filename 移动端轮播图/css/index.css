@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    max-width: 540px;
+    min-width: 320px;
+    background: #f6f6f6;
+}
+.focus {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.focus ul {
+    width: 500%;
+    overflow: hidden;
+    margin-left: -100%;
+}
+.focus ul li {
+    float: left;
+    width: 20%;
+}
+.focus ul img {
+    width: 100%;
+}
+.focus ol {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}
+.focus ol li {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all .2s;
+}
+.focus .current {
+    width: 15px;
+}
