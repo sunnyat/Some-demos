@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两面翻转盒子案例</title>
+    <style>
+        body {
+            perspective: 500px;
+        }
+        .box {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            margin: 100px auto;
+            transition: all .4s;
+            transform-style: preserve-3d;
+
+        }
+        .box:hover {
+            transform: rotateY(180deg);
+        }
+        .front,
+        .back {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 300px;
+            font-size: 30px;
+        }
+        .front {
+            background-color: blueviolet;
+            z-index: 1;
+        }
+        .back {
+            background-color: beige;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="front">我爱学习额哦</div>
+        <div class="back">前端使我快乐</div>
+    </div>
+</body>
+</html>

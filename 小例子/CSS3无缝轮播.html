@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 533px;
+            height: 300px;
+            margin: 100px auto;
+            overflow: hidden;
+            border: 5px solid #ccc;
+        }
+        ul {
+            width: 600%;
+            height: 300px;
+            list-style: none;
+            animation: go 30s linear infinite;
+        }
+        ul:hover {
+            animation-play-state: paused;
+        }
+        ul li {
+            float: left;
+        }
+        @keyframes go {
+            0% {
+                transform: translateX(0px);
+            }
+            100% {
+                transform: translateX(-2665px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li><img src="img/img1.jpg" alt=""></li>
+            <li><img src="img/img2.jpg" alt=""></li>
+            <li><img src="img/img3.jpg" alt=""></li>
+            <li><img src="img/img4.jpg" alt=""></li>
+            <li><img src="img/img5.jpg" alt=""></li>
+            <li><img src="img/img1.jpg" alt=""></li>
+        </ul>
+    </div>
+</body>
+
+</html>

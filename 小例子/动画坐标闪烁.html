@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.map {
+				position: relative;
+				width: 900px;
+				height: 600px;
+				background: url("img/chain.jpg") no-repeat;
+				background-size: 900px 600px;
+			}
+			.city {
+				position: absolute;
+				top: 252px;
+				right: 330px;
+				width: 7px;
+				height: 7px;
+				background-color: #09f;
+				border-radius: 50%;
+			}
+			.tb {
+				position: absolute;
+				top: 485px;
+				right: 235px;
+			}
+			.city div[class^="shadow"] {
+				position: absolute;
+				top: 50%;
+				right: 50%;
+				transform: translate(50%,-50%); 
+				width: 7px;
+				height: 7px;
+				border-radius: 50%;
+				box-shadow: 0 0 12px #09F;
+				animation: shadow 1.6s linear infinite;
+			}
+			.city div.shadow1 {
+				animation-delay: .4s;
+			}
+			.city div.shadow2 {
+				animation-delay: .8s;
+			}
+			.city div.shadow3 {
+				animation-delay: 1.2s;
+			}
+			@keyframes shadow{
+				0% {}
+				70% {
+					width: 35px;
+					height: 35px;
+					opacity: 1;
+				}
+				100% {
+					width: 60px;
+					height: 60px;
+					opacity: 0;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="map">
+			<div class="city">
+				<div class="point"></div>
+				<div class="shadow1"></div>
+				<div class="shadow2"></div>
+				<div class="shadow3"></div>
+			</div>
+			<div class="city tb">
+				<div class="point"></div>
+				<div class="shadow1"></div>
+				<div class="shadow2"></div>
+				<div class="shadow3"></div>
+			</div>
+		</div>
+	</body>
+</html>

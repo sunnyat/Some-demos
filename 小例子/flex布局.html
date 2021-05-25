@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .map {
+            width: 100%;
+            height: 160px;
+            margin-bottom: 6px;
+        }
+        .map img {
+            width: 100%;
+            height: 160px;
+        }
+        nav {
+            max-width: 540px;
+            min-width: 380px;
+            margin: 30px auto;
+            
+        }
+        .nav {
+            border-radius: 10px;
+            display: flex;
+            background-color: pink;
+            margin: 4px 2px;
+        }
+        .nav2 {
+            background-color: skyblue;
+        }
+        .nav3 {
+            background-color: greenyellow;
+        }
+        .nav4 {
+            background-color: orange;
+        }
+        .box {
+            flex: 1;
+            height: 90px;
+            border: 0.5px solid #fff;
+            display: flex;
+            flex-direction: column;
+        }
+        .box a {
+            flex: 1;
+            line-height: 40px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+        }
+        .center a:first-child {
+            border-bottom: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="map">
+            <img src="img/xiaozhan.gif" alt="">
+        </div>
+        <div class="nav">
+            <div class="box">1</div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+        </div>
+        <div class="nav nav2">
+            <div class="box">1</div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+        </div>
+        <div class="nav nav3">
+            <div class="box">1</div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+        </div>
+        <div class="nav nav4">
+            <div class="box">1</div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+            <div class="box center">
+                <a href="">旅游指南</a>
+                <a href="">旅游指南</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
