@@ -42,7 +42,7 @@
 
 图片展示如下
 
-
+<video src="./readImg/中国地图.wmv"></video>
 
 ### JS小例子
 
