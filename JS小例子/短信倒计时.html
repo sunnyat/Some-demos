@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>发送短信案例</title>
+</head>
+<body>
+    手机号码： <input type="number"> <button>发送</button>
+    <script>
+        // 用户点击后，先禁用按钮，然后修改内容为倒计时；当倒计时结束，把按钮复用，内容重新改为发送，time重新改为3
+        var btn = document.querySelector('button');
+        var time = 3;
+        btn.addEventListener('click', function() {
+            btn.disabled = true;
+            var timer = setInterval(function() {
+                if(time == 0) {
+                    clearInterval(timer);
+                    btn.disabled = false;
+                    btn.innerHTML = '发送';
+                    time = 3;
+                } else {
+                    btn.innerHTML = '还剩'+ time +'秒';
+                    time--;
+                }
+            },1000);
+        })
+    </script>
+</body>
+</html>

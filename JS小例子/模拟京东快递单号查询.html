@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>模拟京东快递单号查询</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .search {
+            position: relative;
+            width: 178px;
+            margin: 100px;
+        }
+        
+        .con {
+            display: none;
+            position: absolute;
+            top: -40px;
+            width: 171px;
+            border: 1px solid rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+            padding: 5px 0;
+            font-size: 18px;
+            line-height: 20px;
+            color: #333;
+        }
+        
+        .con::before {
+            content: '';
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 28px;
+            left: 18px;
+            border: 8px solid #000;
+            border-style: solid dashed dashed;
+            border-color: #fff transparent transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="search">
+        <div class="con">123</div>
+        <input type="text" placeholder="请输入您的快递单号" class="jd">
+    </div>
+    <script>
+        var con = document.querySelector('.con');
+        var jd = document.querySelector('.jd');
+        // keyup 字先落入文本框然后才执行里边代码
+        // keydown和keypress是先执行了代码，但此时字还没有落入文本框，而且keypress不识别功能键，删除键无效。
+        // 所以这个案例用keyup比较合适
+        jd.addEventListener('keyup', function() {
+            if(this.value == '') { // 判断 为空时隐藏
+                con.style.display = 'none';
+            } else {      // 用户输入了内容才显示，并把内容赋值给con
+                con.style.display = 'block';
+                con.innerHTML = this.value;
+            }
+        })
+
+        // 失去焦点con隐藏
+        jd.addEventListener('blur', function() {
+            con.style.display = 'none';
+        })
+        // 获得焦点显示
+        jd.addEventListener('focus', function() {
+            if(this.value !== '') {
+                con.style.display = 'block';
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pink老师JS进阶</title>
+    <style>
+        .box {
+            margin: 100px auto;
+            width: 300px;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+        }
+        input {
+            width: 300px;
+            height: 25px;
+            border: 0;
+            outline: 0;
+            text-indent: 5px;
+        }
+        img {
+            position: absolute;
+            top: 6px;
+            right: 8px;
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box">盒子1</div>
+    <div class="box">盒子2</div> -->
+        <div class="box">
+            <label for="">
+                <img src="images/close.png" alt="" id="eyes">
+            </label>
+            <input type="password" name="" id="pwd">
+        </div>
+    <script>
+        // var box1 = document.querySelector('.box'); // 返回指定选择器的第一个元素  .box #box div
+        // var boxs = document.querySelectorAll('.box'); // 返回指定选择器所有元素对象集合
+        // var body = document.body; // 获取body元素
+        // var html = document.documentElement; // 获取html元素
+
+        var eyes = document.getElementById('eyes');
+        var pwd = document.getElementById('pwd');
+        var flag = 0;
+        eyes.onclick = function() {
+           if(flag == 0) {
+                eyes.src = 'images/open.png';
+                pwd.type = 'text';
+                flag = 1;
+            } else {
+                eyes.src = 'images/close.png';
+                pwd.type = 'password';
+                flag = 0;
+            }
+        }
+        
+    </script>
+</body>
+</html>

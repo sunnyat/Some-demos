@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>密码提示信息</title>
+    <style>
+        .box {
+            margin: 100px auto;
+            width: 500px;
+            height: 50px;
+        }
+        input {
+            float: left;
+        }
+        .text {
+            font-size: 12px;
+            color: #999;
+            text-indent: 18px;
+            line-height: 19px;
+            background: url("images/remind.png") no-repeat;
+            background-size: 13px;
+            background-position: 170px 3px;
+        }
+        .wrong {
+            color: #f00;
+            background: url("images/wrong.png") no-repeat;
+            background-size: 13px;
+            background-position: 170px 3px;
+
+        }
+        .right {
+            color: green;
+            background: url("images/right.png") no-repeat;
+            background-size: 13px;
+            background-position: 170px 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <input type="password" name="">
+        <p class="text">请输入6~16位密码</p>
+    </div>
+
+
+    <script>
+        var ipt = document.querySelector("input");
+        var text = document.querySelector(".text");
+        ipt.onblur = function() {
+            if(this.value.length < 6 || this.value.length > 16) {
+                text.className = 'text wrong';
+                text.innerHTML = '输入错误！请输入6~16位密码';
+            } else {
+                text.className = 'text right';
+                text.innerHTML = '输入正确';
+            }
+        }
+    </script>
+</body>
+</html>

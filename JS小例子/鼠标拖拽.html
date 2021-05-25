@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			window.onload = function() {
+				
+				var box1 = document.getElementById("box1");
+				var box2 = document.getElementById("box2");
+				var img1 = document.getElementById("img1");
+				
+				drag(box1);
+				drag(box2);
+				drag(img1);
+			};
+			function drag(obj) {
+				obj.onmousedown = function(event) {
+					//解决IE8全选时出的问题
+					obj.setCapture && obj.setCapture();
+					//解决兼容性问题
+					event = event || window.event;
+					
+					var ol = event.clientX - obj.offsetLeft;
+					var ot = event.clientY - obj.offsetTop;
+					
+					document.onmousemove = function(event) {
+						
+						event = event || window.event;
+						
+						var left = event.clientX - ol;
+						var top = event.clientY - ot;
+						
+						obj.style.left = left + "px";
+						obj.style.top = top + "px";
+						
+					};
+					
+					document.onmouseup = function() {
+						document.onmousemove = null;
+						document.onmousedown = null;
+						obj.releaseCapture && obj.releaseCapture();
+					};
+					//取消浏览器默认行为
+					return false;
+				};
+				
+			};
+			
+		</script>
+		<style>
+			#box1{
+				width: 100px;
+				height: 100px;
+				background-color: #ADFF2F;
+				position: absolute;
+			}
+			#box2{
+				width: 100px;
+				height: 100px;
+				background-color: aliceblue;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box1"></div>
+		<div id="box2"></div>
+		<img src="images/img3.jpg" id="img1" style="position: absolute;" />
+	</body>
+</html>
