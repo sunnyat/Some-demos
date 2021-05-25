@@ -1,0 +1,25 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;
+    /* 去除图片底部空白缝隙 */
+    vertical-align: top;}
+li{list-style:none;}
+input,select,textarea{outline:none;border: none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #656565}
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.comWidth{margin: 0 auto;width: 1000px;}
+
+.fl{float: left;}
+.fr{float: right}
+
+.hide{display: none}
+.show{display: block}
+
+
+
+
+
+
