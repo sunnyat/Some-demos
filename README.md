@@ -2,7 +2,15 @@
 
 ### 简介
 
-本仓库主要包含了todolist待办事项、电梯导航、购物车结算页、慕课课程《从psd到html》、旋转木马轮播图等，编写的代码均有详细的注释。具体介绍如下所示
+本仓库主要包含了todolist待办事项、电梯导航、购物车结算页、慕课课程《从psd到html》、旋转木马轮播图
+
+**CSS3：**曲线阴影&翘边阴影、3D导航栏、CSS3无缝轮播、坐标闪烁动画、两面翻转盒子、旋转木马轮播
+
+**JS：**动态增删改tab栏、JS轮播图、表单全选取消全选、条件查询商品、单元格删除、点击换肤效果、短信倒计时、放大镜效果、键盘移动盒子、筋斗云、留言删除留言、密码提示信息、模拟京东快递单号查询、鼠标拖拽盒子、鼠标在盒子里坐标、拖动模态框（登录框）、密码显示隐藏
+
+**移动端布局：**bootstrap布局（阿里百秀）、flex布局（携程）、rem布局（苏宁易购）、流体布局（京东）、移动端轮播图
+
+编写的代码均有详细的注释。具体介绍如下所示
 
 ### 购物车结算页
 
@@ -10,13 +18,13 @@
 
 图片展示如下
 
-<img src="./readImg/购物车结算页.jpg" alt="购物车结算页" style="zoom:80%;" />
+<img src="./readImg/购物车结算页.jpg" alt="购物车结算页" />
 
 ### 旋转木马轮播图
 
 使用原生JS实现，可左右点击轮播也可自动轮播，图片展示如下。
 
-<img src="./readImg/旋转木马轮播图.png" alt="旋转木马轮播图" style="zoom:80%;" />
+<img src="./readImg/旋转木马轮播图.png" alt="旋转木马轮播图" />
 
 ### todolist待办事项
 
@@ -24,13 +32,13 @@
 
 图片展示如下
 
-<img src="./readImg/todolist.jpg" alt="todolist" style="zoom:80%;" />
+<img src="./readImg/todolist.jpg" alt="todolist"  />
 
 ### 慕课课程《从psd到html》
 
 此课程主要是为了学习PS切图流程与技巧，图片展示如下
 
-<img src="./readImg/psd练习.jpg" alt="psd练习" style="zoom:80%;" />
+<img src="./readImg/psd练习.jpg" alt="psd练习" />
 
 ### 电梯导航
 
@@ -42,7 +50,29 @@
 
 图片展示如下
 
-<video src="./readImg/中国地图.wmv"></video>
+##### 曲线阴影&翘边阴影
+
+<img src="./readImg/曲线阴影&翘边阴影.png" alt="曲线阴影&翘边阴影" />
+
+##### 3D导航栏
+
+<img src="./readImg/3D导航栏.gif" alt="3D导航栏" />
+
+##### CSS3无缝轮播
+
+<img src="./readImg/CSS3无缝轮播.gif" alt="CSS3无缝轮播" />
+
+##### 坐标闪烁动画
+
+<img src="./readImg/坐标闪烁.gif" alt="坐标闪烁" />
+
+##### 两面翻转盒子
+
+<img src="./readImg/两面翻转盒子.gif" alt="两面翻转盒子" />
+
+##### 旋转木马轮播
+
+<img src="./readImg/旋转木马轮播.gif" alt="旋转木马轮播" />
 
 ### JS小例子
 
@@ -50,7 +80,53 @@
 
 图片展示如下
 
+##### 动态增删改tab栏
 
+<img src="./readImg/动态增删改tab.gif" alt="动态增删改tab" />
+
+##### JS轮播图
+
+<img src="./readImg/JS轮播图.png" alt="JS轮播图" />
+
+##### 条件查询商品
+
+<img src="./readImg/条件查询.png" alt="条件查询" />
+
+##### 点击换肤效果
+
+<img src="./readImg/点击换肤.gif" alt="点击换肤" />
+
+##### 短信倒计时
+
+![短信倒计时](./readImg/短信倒计时.png)
+
+##### 放大镜效果
+
+<img src="./readImg/放大镜效果.png" alt="放大镜效果" />
+
+##### 键盘移动盒子
+
+<img src="./readImg/键盘移动盒子.gif" alt="键盘移动盒子" />
+
+##### 筋斗云
+
+<img src="./readImg/筋斗云.gif" alt="筋斗云" />
+
+##### 模拟京东快递单号查询
+
+<img src="./readImg/京东快递单号.png" alt="京东快递单号" />
+
+##### 鼠标在盒子里坐标
+
+<img src="./readImg/鼠标在盒子的坐标.png" alt="鼠标在盒子的坐标" />
+
+##### 拖动模态框（登录框）
+
+<img src="./readImg/拖动登录模态框.png" alt="拖动登录模态框" />
+
+##### 密码显示隐藏
+
+<img src="./readImg/密码显示隐藏.jpg" alt="密码显示隐藏" />
 
 ### 移动端布局
 
@@ -58,9 +134,25 @@
 
 图片展示如下
 
+##### bootstrap布局（阿里百秀）
+
+<img src="./readImg/bootstrap阿里百秀.jpg" alt="bootstrap阿里百秀" />
+
+##### flex布局（携程）
+
+<img src="./readImg/携程网flex.jpg" alt="携程网flex" />
+
+##### rem布局（苏宁易购）
+
+<img src="./readImg/苏宁易购rem.jpg" alt="苏宁易购rem" />
+
+##### 流体布局（京东）
+
+<img src="./readImg/京东流体布局.jpg" alt="京东流体布局" />
+
 ##### 移动端轮播图
 
-<img src="./readImg/移动端轮播图.png" alt="移动端轮播图" style="zoom:80%;" />
+<img src="./readImg/移动端轮播图.png" alt="移动端轮播图" />
 
 ### animate.js
 
