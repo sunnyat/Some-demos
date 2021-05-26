@@ -18,13 +18,13 @@
 
 图片展示如下
 
-<img src="./readImg/购物车结算页.jpg" alt="购物车结算页" />
+![购物车结算页](https://github.com/sunyan1998/Some-demos/blob/main/readImg/购物车结算页.jpg)
 
 ### 旋转木马轮播图
 
 使用原生JS实现，可左右点击轮播也可自动轮播，图片展示如下。
 
-<img src="./readImg/旋转木马轮播图.png" alt="旋转木马轮播图" />
+![旋转木马轮播图](https://github.com/sunyan1998/Some-demos/blob/main/readImg/旋转木马轮播图.png)
 
 ### todolist待办事项
 
@@ -32,13 +32,13 @@
 
 图片展示如下
 
-<img src="./readImg/todolist.jpg" alt="todolist"  />
+![todolist](https://github.com/sunyan1998/Some-demos/blob/main/readImg/todolist.jpg)
 
 ### 慕课课程《从psd到html》
 
 此课程主要是为了学习PS切图流程与技巧，图片展示如下
 
-<img src="./readImg/psd练习.jpg" alt="psd练习" />
+![psd练习](https://github.com/sunyan1998/Some-demos/blob/main/readImg/psd练习.jpg)
 
 ### 电梯导航
 
@@ -52,27 +52,27 @@
 
 ##### 曲线阴影&翘边阴影
 
-<img src="./readImg/曲线阴影&翘边阴影.png" alt="曲线阴影&翘边阴影" />
+![曲线阴影&翘边阴影](https://github.com/sunyan1998/Some-demos/blob/main/readImg/曲线阴影&翘边阴影.png)
 
 ##### 3D导航栏
 
-<img src="./readImg/3D导航栏.gif" alt="3D导航栏" />
+![3D导航栏](https://github.com/sunyan1998/Some-demos/blob/main/readImg/3D导航栏.gif)
 
 ##### CSS3无缝轮播
 
-<img src="./readImg/CSS3无缝轮播.gif" alt="CSS3无缝轮播" />
+![CSS3无缝轮播](https://github.com/sunyan1998/Some-demos/blob/main/readImg/CSS3无缝轮播.gif)
 
 ##### 坐标闪烁动画
 
-<img src="./readImg/坐标闪烁.gif" alt="坐标闪烁" />
+![坐标闪烁](https://github.com/sunyan1998/Some-demos/blob/main/readImg/坐标闪烁.gif)
 
 ##### 两面翻转盒子
 
-<img src="./readImg/两面翻转盒子.gif" alt="两面翻转盒子" />
+![两面翻转盒子](https://github.com/sunyan1998/Some-demos/blob/main/readImg/两面翻转盒子.gif)
 
 ##### 旋转木马轮播
 
-<img src="./readImg/旋转木马轮播.gif" alt="旋转木马轮播" />
+![旋转木马轮播](https://github.com/sunyan1998/Some-demos/blob/main/readImg/旋转木马轮播.gif)
 
 ### JS小例子
 
@@ -82,51 +82,51 @@
 
 ##### 动态增删改tab栏
 
-<img src="./readImg/动态增删改tab.gif" alt="动态增删改tab" />
+![动态增删改tab](https://github.com/sunyan1998/Some-demos/blob/main/readImg/动态增删改tab.gif)
 
 ##### JS轮播图
 
-<img src="./readImg/JS轮播图.png" alt="JS轮播图" />
+![JS轮播图](https://github.com/sunyan1998/Some-demos/blob/main/readImg/JS轮播图.png)
 
 ##### 条件查询商品
 
-<img src="./readImg/条件查询.png" alt="条件查询" />
+![条件查询](https://github.com/sunyan1998/Some-demos/blob/main/readImg/条件查询.png)
 
 ##### 点击换肤效果
 
-<img src="./readImg/点击换肤.gif" alt="点击换肤" />
+![点击换肤](https://github.com/sunyan1998/Some-demos/blob/main/readImg/点击换肤.gif)
 
 ##### 短信倒计时
 
-![短信倒计时](./readImg/短信倒计时.png)
+![短信倒计时](https://github.com/sunyan1998/Some-demos/blob/main/readImg/短信倒计时.png)
 
 ##### 放大镜效果
 
-<img src="./readImg/放大镜效果.png" alt="放大镜效果" />
+![放大镜效果](https://github.com/sunyan1998/Some-demos/blob/main/readImg/放大镜效果.png)
 
 ##### 键盘移动盒子
 
-<img src="./readImg/键盘移动盒子.gif" alt="键盘移动盒子" />
+![键盘移动盒子](https://github.com/sunyan1998/Some-demos/blob/main/readImg/键盘移动盒子.gif)
 
 ##### 筋斗云
 
-<img src="./readImg/筋斗云.gif" alt="筋斗云" />
+![筋斗云](https://github.com/sunyan1998/Some-demos/blob/main/readImg/筋斗云.gif)
 
 ##### 模拟京东快递单号查询
 
-<img src="./readImg/京东快递单号.png" alt="京东快递单号" />
+![京东快递单号](https://github.com/sunyan1998/Some-demos/blob/main/readImg/京东快递单号.png)
 
 ##### 鼠标在盒子里坐标
 
-<img src="./readImg/鼠标在盒子的坐标.png" alt="鼠标在盒子的坐标" />
+![鼠标在盒子的坐标](https://github.com/sunyan1998/Some-demos/blob/main/readImg/鼠标在盒子的坐标.png)
 
 ##### 拖动模态框（登录框）
 
-<img src="./readImg/拖动登录模态框.png" alt="拖动登录模态框" />
+![拖动登录模态框](https://github.com/sunyan1998/Some-demos/blob/main/readImg/拖动登录模态框.png)
 
 ##### 密码显示隐藏
 
-<img src="./readImg/密码显示隐藏.jpg" alt="密码显示隐藏" />
+![密码显示隐藏](https://github.com/sunyan1998/Some-demos/blob/main/readImg/密码显示隐藏.jpg)
 
 ### 移动端布局
 
@@ -136,23 +136,23 @@
 
 ##### bootstrap布局（阿里百秀）
 
-<img src="./readImg/bootstrap阿里百秀.jpg" alt="bootstrap阿里百秀" />
+![bootstrap阿里百秀](https://github.com/sunyan1998/Some-demos/blob/main/readImg/bootstrap阿里百秀.jpg)
 
 ##### flex布局（携程）
 
-<img src="./readImg/携程网flex.jpg" alt="携程网flex" />
+![携程网flex](https://github.com/sunyan1998/Some-demos/blob/main/readImg/携程网flex.jpg)
 
 ##### rem布局（苏宁易购）
 
-<img src="./readImg/苏宁易购rem.jpg" alt="苏宁易购rem" />
+![苏宁易购rem](https://github.com/sunyan1998/Some-demos/blob/main/readImg/苏宁易购rem.jpg)
 
 ##### 流体布局（京东）
 
-<img src="./readImg/京东流体布局.jpg" alt="京东流体布局" />
+![京东流体布局](https://github.com/sunyan1998/Some-demos/blob/main/readImg/京东流体布局.jpg)
 
 ##### 移动端轮播图
 
-<img src="./readImg/移动端轮播图.png" alt="移动端轮播图" />
+![移动端轮播图](https://github.com/sunyan1998/Some-demos/blob/main/readImg/移动端轮播图.png)
 
 ### animate.js
 
