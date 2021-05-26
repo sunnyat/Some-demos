@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>瀑布流</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/pinterest_grid.js"></script>
+    <style type="text/css">
+		#gallery-wrapper {
+            position: relative;
+            max-width: 75%;
+            width: 75%;
+            margin:50px auto;
+		}
+		img.thumb {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+		}
+		.white-panel {
+            position: absolute;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+            padding: 10px;
+		}
+		.white-panel h1 {
+		    font-size: 1em;
+		}
+		.white-panel h1 a {
+		    color: #A92733;
+		}
+		.white-panel:hover {
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+            margin-top: -5px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+		}
+    </style>
+</head>
+<body>
+    <section id="gallery-wrapper">
+        <article class="white-panel">
+            <img src="img/1.jpg" class="thumb">
+            <h1><a href="#">Title 1</a></h1>
+                <p>Description 1</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/2.jpg" class="thumb">
+            <h1><a href="#">Title 2</a></h1>
+                <p>Description 2</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/3.jpg" class="thumb">
+            <h1><a href="#">Title 3</a></h1>
+                <p>Description 3</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/4.jpg" class="thumb">
+            <h1><a href="#">Title 4</a></h1>
+                <p>Description 4</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/5.jpg" class="thumb">
+            <h1><a href="#">Title 5</a></h1>
+                <p>Description 5</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/6.jpg" class="thumb">
+            <h1><a href="#">Title 6</a></h1>
+                <p>Description 6</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/7.jpg" class="thumb">
+            <h1><a href="#">Title 7</a></h1>
+                <p>Description 7</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/8.jpg" class="thumb">
+            <h1><a href="#">Title 8</a></h1>
+                <p>Description 8</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/9.jpg" class="thumb">
+            <h1><a href="#">Title 9</a></h1>
+                <p>Description 9</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/10.jpg" class="thumb">
+            <h1><a href="#">Title 10</a></h1>
+                <p>Description 10</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/11.jpg" class="thumb">
+            <h1><a href="#">Title 11</a></h1>
+                <p>Description 11</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/12.jpg" class="thumb">
+            <h1><a href="#">Title 12</a></h1>
+                <p>Description 12</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/13.jpg" class="thumb">
+            <h1><a href="#">Title 13</a></h1>
+                <p>Description 13</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/14.jpg" class="thumb">
+            <h1><a href="#">Title 14</a></h1>
+                <p>Description 14</p>
+        </article>
+        <article class="white-panel">
+            <img src="img/15.jpg" class="thumb">
+            <h1><a href="#">Title 15</a></h1>
+                <p>Description 15</p>
+        </article>
+    </section>
+    <script type="text/javascript">
+		$(function(){
+			$("#gallery-wrapper").pinterest_grid({
+				no_columns: 4,   // 网格布局一行的列数。默认值为一行3个网格
+                padding_x: 10,   // 网格在X轴方向的padding值。默认值为10像素
+                padding_y: 10,   // 网格在Y轴方向的padding值。默认值为10像素
+                margin_bottom: 50,   // 网格底部的margin值。默认值为50像素
+                single_column_breakpoint: 700  // 指定在视口多大时一行只显示一个网格
+			});
+		});
+	</script>
+</body>
+</html>

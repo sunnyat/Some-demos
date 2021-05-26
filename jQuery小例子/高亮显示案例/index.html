@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        body {
+            background: #000;
+        }
+        
+        .wrap {
+            margin: 100px auto 0;
+            width: 630px;
+            height: 394px;
+            padding: 10px 0 0 10px;
+            background: #000;
+            overflow: hidden;
+            border: 1px solid #fff;
+        }
+        
+        .wrap li {
+            float: left;
+            margin: 0 10px 10px 0;
+        }
+        
+        .wrap img {
+            display: block;
+            border: 0;
+        }
+    </style>
+    <script src="../jquery.min.js"></script>
+    <script>
+        $(function() {
+            // fadeIn();淡入 fadeOut();淡出 fadeTo();透明度 fadeToggle();切换
+            $('.wrap li').hover(function() {
+                // 所有的动画效果都要解决排队问题
+                $(this).siblings().stop().fadeTo(400, .5);
+            }, function() {
+                $(this).siblings().stop().fadeTo(400, 1);
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <ul>
+            <li>
+                <a href="#"><img src="images/01.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/02.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/03.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/04.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/05.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/06.jpg" alt="" /></a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

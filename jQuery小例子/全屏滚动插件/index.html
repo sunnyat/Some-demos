@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全屏滚动插件</title>
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <style>
+        .section { text-align: center; font: 40px "Microsoft Yahei"; color: #fff;}
+        #fp-nav ul li a span {
+            background-color: #fff!important;
+        }
+    </style>
+    <script>
+        $(function(){
+            $('#dowebok').fullpage({
+                // verticalCentered: true,
+                sectionsColor: ['pink', '#4BBFC3', '#7BAABE', '#f90'],
+                navigation: true,
+                navigationColor: 'red'
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="dowebok">
+        <div class="section">
+            <h3>第一屏</h3>
+        </div>
+        <div class="section">
+            <h3>第二屏</h3>
+        </div>
+        <div class="section">
+            <h3>第三屏</h3>
+        </div>
+        <div class="section">
+            <h3>第四屏</h3>
+        </div>
+    </div>
+</body>
+</html>
+<!-- 插件网址http://www.dowebok.com/77.html -->
