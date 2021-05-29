@@ -154,6 +154,28 @@ JS：动态增删改tab栏、JS轮播图、表单全选取消全选、条件查�
 
 ![移动端轮播图](https://github.com/sunyan1998/Some-demos/blob/main/readImg/移动端轮播图.png)
 
+### jQuery小例子
+
+##### 高亮显示案例
+
+![高亮显示](https://github.com/sunyan1998/Some-demos/blob/main/readImg/高亮显示.png)
+
+##### 瀑布流插件
+
+![瀑布流插件](https://github.com/sunyan1998/Some-demos/blob/main/readImg/瀑布流插件.jpg)
+
+##### 全屏滚动插件
+
+向下滑动会进入下一屏。
+
+##### 手风琴案例
+
+![手风琴效果](https://github.com/sunyan1998/Some-demos/blob/main/readImg/手风琴特效.png)
+
+##### 下拉菜单
+
+![下拉菜单](https://github.com/sunyan1998/Some-demos/blob/main/readImg/下拉菜单.jpg)
+
 ### animate.js
 
 这是一个封装的缓动动画函数，可改变元素的一些属性以及透明度。
