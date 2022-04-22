@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>固定表头，表内容tbody滚动</title>
+  <!-- 
+    1、给tr设置宽100%和一定高度
+    2、给tbody设置max-height和overflow
+    3、给子元素设置宽度
+   -->
+  <style>
+  .fixedThead {
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 400px;
+    background-color: #2C3A5B;
+    color: #eee;
+  }
+
+  .fixedThead table thead tr {
+    width: 100%;
+  }
+
+  .fixedThead table tbody {
+    max-height: 130px;
+    overflow: auto;
+    overflow-y: overlay;  /* overlay: 滚动条覆盖在表格上面，使滚动条不占位 */
+  }
+
+  .fixedThead table tbody,
+  .fixedThead table tr,
+  .fixedThead table th,
+  .fixedThead table td {
+    display: inline-block;
+  }
+
+  .fixedThead table tbody tr {
+    width: 100%;
+    line-height: 20px;
+    border-top: 1px solid #ddd;
+  }
+
+  .fixedThead table tbody tr td {
+    text-align: center;
+  }
+
+  .fixedThead table thead tr th:nth-child(1),
+  .fixedThead table tbody tr td:nth-child(1) {
+    width: 20%;
+  }
+
+  .fixedThead table thead tr th:nth-child(2),
+  .fixedThead table tbody tr td:nth-child(2) {
+    width: 20%;
+  }
+  </style>
+</head>
+
+<body>
+<div class="fixedThead">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>张三</td>
+        <td>18</td>
+        <td>地球村</td>
+      </tr>
+      <tr>
+        <td>张张</td>
+        <td>15</td>
+        <td>地球村</td>
+      </tr>
+      <tr>
+        <td>三三</td>
+        <td>19</td>
+        <td>地球村</td>
+      </tr>
+      <tr>
+        <td>李四</td>
+        <td>32</td>
+        <td>地球村</td>
+      </tr>
+      <tr>
+        <td>丽丽</td>
+        <td>20</td>
+        <td>地球村</td>
+      </tr>
+      <tr>
+        <td>思思</td>
+        <td>14</td>
+        <td>地球村</td>
+      </tr>
+      <tr>
+        <td>哈哈怪</td>
+        <td>20</td>
+        <td>地球村</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+
+</html>
